@@ -1,0 +1,32 @@
+@media(max-width: 720px){
+    .header{
+        flex-direction: column;
+    }
+
+    .logo h1{
+        font-size: 4rem;
+    }
+
+    .menu{
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .menu li{
+        margin: 3.3rem;
+    }
+
+    .menu li a{
+        padding: 1.7rem 4rem;
+        font-size: 4rem;
+    }
+
+    .menu li a.botao-cadastro{
+        font-size: 1.8rem;
+        padding: 1.5rem 2.3rem;
+    }
+
+    .menu li:last-child{
+        margin-top: 2rem;
+    }
+}

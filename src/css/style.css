@@ -1,0 +1,59 @@
+:root{
+    --background-iten-menu: #5BC241;
+    --text-iten-menu: #ffffff;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    padding: 4.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li a{
+    padding: 1rem 0.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover{
+    background-color: var(--background-iten-menu);
+    color: var(--text-iten-menu);
+}
+
+.menu li a.botao-cadastro{
+    background-color: var(--background-iten-menu);
+    color: var(--text-iten-menu);
+    border-radius: 1rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+}
+
+
